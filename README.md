@@ -1,61 +1,71 @@
-# ERAnet – Emotion Recognition-based Assistive Learning Network
+# Detecting Live Fingerprint Spoofing in Real Time
 
-ERAnet is an assistive AI system designed to support children with Autism Spectrum Disorder (ASD) by improving emotional understanding, attention, and interaction. It combines computer vision, emoji-based learning cues, and real-time behavioral analysis to provide an adaptive learning experience.
-
----
-
-## 🚀 Key Features
-- **ASD Learning Phase:** Facial emotions are detected and visualized as emojis to simplify understanding.
-- **Emotion Recognition Phase:** Child identifies the correct emoji for the detected emotion, with guided attempts.
-- **Audio Analysis Phase:** Facial reactions while listening to audio are analyzed to compute an emotion score.
-- **Real-time Interaction:** Designed to work in controlled sessions with therapists, parents, and ASD children.
+A multimodal biometric authentication system designed to prevent spoofing attacks by combining fingerprint recognition with vein pattern analysis, DNA from perspiration, and physiological liveness detection.
 
 ---
 
-## 📊 Model Performance
-- Evaluated using **precision, recall, F1-score, and accuracy**.
-- Validated on benchmark datasets.
-- Achieved **91.45% accuracy**, outperforming state-of-the-art approaches.
+## 🌐 Overview
+Traditional fingerprint systems are vulnerable to spoofing using artificial fingerprints made from silicone, latex, or gelatin.  
+This project introduces a **hybrid authentication system** that integrates biological and physiological signals to detect real users in real time.
 
 ---
 
-## 🧠 Objective
-To build an interactive assistive system that:
-- Helps ASD children understand emotions visually.
-- Improves social cue recognition.
-- Enhances engagement using audio-based emotional responses.
+## 🔐 Key Features
+- **Fingerprint Recognition** — High-resolution ridge pattern detection.
+- **Vein Pattern Mapping** — CMOS infrared sensor extracts sub-dermal vein structures.
+- **Sweat-Based DNA Analysis** — Unique genomic identification.
+- **Physiological Liveness Detection** — Pulse rate & SpO₂ measurement.
+- **RF & Raman Technology** — Detects tissue conductivity and molecular signatures.
+- **End-to-End Data Encryption** — AES / DES protection for biometric data.
 
 ---
 
-## 📦 Tech Stack
-- Deep Learning (CNN-based models)
-- Computer Vision (Facial emotion detection)
-- Emoji-based UI
-- Real-time inference modules for audio + video
+## 🧠 Why Multimodal?
+Single-modality biometrics can be spoofed.  
+This system ensures:
+- **Anti-spoofing reliability**
+- **Lower false acceptance (FAR) / false rejection (FRR)**
+- **High-security authentication for critical environments**
 
 ---
 
-## 📈 Results
-ERAnet demonstrates:
-- Improved emotion recognition learning.
-- Strong real-time usability.
-- Better performance than traditional learning approaches for ASD children.
+## 🛠️ Technologies Used
+- RF Sensors for proximity & liveness
+- CMOS Infrared for vein recognition
+- Raman Spectroscopy for molecular analysis
+- DNA micro-extraction from sweat samples
+- Oximetry & pulse detection
+- AES / DES encryption
 
 ---
 
-## 👥 Intended Users
-- ASD children (supervised use)
-- Therapists
-- Parents
-- Special education professionals
+## 📊 Performance & Security
+- **Security Score:** 91 / 100
+- Resistant to:
+  - Artificial fingerprints
+  - Printed replicas
+  - Presentation attacks
+- Highly scalable for industrial & governmental environments.
 
 ---
 
-## 🔒 Ethical Use
-This project is designed for supportive learning, not clinical diagnosis. Human supervision is **mandatory**.
+## 🧩 Applications
+- High-security access control
+- Financial & digital identity systems
+- Healthcare patient verification
+- Government & defense authentication
+- Secure digital transactions
+
+---
+
+## ⚠️ Ethical & Privacy Notes
+- DNA and biometric data are highly sensitive.
+- Complies with GDPR / HIPAA principles.
+- All biometric storage & transmission is encrypted.
 
 ---
 
 ## 📜 License
-Open-source for academic and educational use. Commercial use requires permission.
+This project is for educational and research purposes.  
+Commercial or clinical deployment requires ethical approval and permissions.
 
